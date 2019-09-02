@@ -1,4 +1,4 @@
-package com.podder.ullash.makemymeet;
+package com.podder.ullash.makemymeet.LandingPages;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -8,10 +8,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class ProfileFragment extends Fragment {
+import com.podder.ullash.makemymeet.R;
+
+public class MyListFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_profile,container,false);
+        return inflater.inflate(R.layout.fragment_my_list,container,false);
     }
 }
